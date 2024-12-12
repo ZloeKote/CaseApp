@@ -1,0 +1,23 @@
+.person-node-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.person-node-content img {
+  aspect-ratio: 27 / 40;
+  height: 100px;
+  width: 67.5px;
+  align-self: center;
+}
+
+.person-node-input {
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: none;
+  border: none;
+  appearance: none;
+  outline: none;
+  text-align: center;
+  font-style: italic;
+}

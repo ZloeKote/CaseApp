@@ -1,0 +1,27 @@
+.parallelogram-node-layout {
+  aspect-ratio: 2 / 1;
+  min-height: 50px;
+  min-width: 100px;
+  border: 1px solid black;
+  transform: skew(-30deg);
+  padding: 5px;
+  background: white;
+}
+
+.parallelogram-node-content {
+  text-align: center;
+  align-content: center;
+  height: 100%;
+  transform: skew(30deg);
+}
+
+.parallelogram-node-input {
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: none;
+  border: none;
+  appearance: none;
+  outline: none;
+  text-align: center;
+  font-style: italic;
+}

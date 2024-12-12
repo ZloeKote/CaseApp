@@ -1,0 +1,31 @@
+.diamond-node-layout {
+  position: relative;
+  aspect-ratio: 1/1;
+  min-height: 75px;
+  min-width: 75px;
+  border: 1px solid black;
+  background: white;
+  transform: rotate(45deg);
+}
+
+.diamond-node-content {
+  text-align: center;
+  align-content: center;
+  height: 100%;
+  transform: rotate(-45deg);
+}
+
+.diamond-node-input {
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: none;
+  border: none;
+  appearance: none;
+  outline: none;
+  text-align: center;
+  font-style: italic;
+}
+
+.diamond-node-delete-button {
+  transform: rotate(-45deg);
+}
